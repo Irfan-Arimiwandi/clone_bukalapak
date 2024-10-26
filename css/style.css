@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron {
+    background-color: #d50032; /* Warna latar belakang merah Bukalapak */
+    color: white;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: #e60000; /* Warna link */
+}
+
+.nav-link:hover {
+    color: #d50032; /* Warna saat hover */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%; /* Lebar kontrol */
+    top: 50%; /* Posisikan kontrol di tengah secara vertikal */
+    transform: translateY(-50%); /* Pindahkan kontrol ke tengah */
+    background-color: rgba(255, 255, 255, 0.5); /* Tambahkan latar belakang transparan */
+    border-radius: 50%; /* Buat kontrol berbentuk bulat */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Ubah warna ikon kontrol */
+    border-radius: 50%; /* Bulatkan ikon */
+}
+
+
+.card-title {
+    font-size: 1.1rem;
+}
+
+.btn-danger {
+    background-color: #e60000; /* Warna tombol */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #d50032; /* Warna tombol saat hover */
+}
+.card-title {
+    font-weight: 10px;
+}
+
+.row {
+    display: flex; /* Menggunakan flexbox */
+    overflow-x: auto; /* Tambahkan scroll jika konten lebih lebar dari layar */
+}
+
+.card {
+    margin: 5px; /* Memberikan jarak antar kartu */
+    min-width: 100px; /* Pastikan semua kartu memiliki lebar minimum */
+    max-width: 120px; /* Batasi lebar maksimum kartu */
+}
+
+.img-logo {
+    width: 50px !important; /* Atur lebar gambar menjadi 50px */
+    height: 50px; /* Atur tinggi gambar menjadi 50px */
+    display: block; /* Pastikan gambar terpusat dalam kolom */
+    margin: 0 auto; /* Margin otomatis untuk pusat */
+}
